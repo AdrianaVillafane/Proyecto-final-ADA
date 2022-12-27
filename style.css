@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    width: 100vh;
+    background-color: rgb(73, 72, 70);
+    display: inline;
+  }
+  
+  header {
+    background-color: sandybrown;
+    width: 1600px;
+    height: 100px;
+    margin: 50px auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 1px black;
+    font-family: "Orbitron", sans-serif;
+    font-family: "Zen Dots", cursiva;
+    font-size: xx-large;
+  }
+  
+  footer {
+    width: 1600px;
+    height: 80px;
+    background-color: sandybrown;
+    margin: 50px auto;
+    font-family: "Orbitron", sans-serif;
+    font-family: "Zen Dots", cursiva;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 1px black;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+  }
+  
+  
+  .autor {
+    font-family: "Orbitron", sans-serif;
+  font-family: "Zen Dots", cursiva;
+    font-size: 30px;
+  }
+  
+  .container {
+    width: 1018px;
+    height: 400px;
+    background-color: sandybrown;
+    border: 5px solid black;
+    border-radius: 30px;
+    display: inline;
+    align-items: stretch;
+    padding: 5px;
+    margin: 20px auto;
+    box-shadow: 5px 5px 10px 1px black;
+    
+  }
+ 
+  .character-img {
+  width: 250px;
+  height: 250px;
+  border: 5px solid sandybrown;
+  flex-direction: row;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  
+  }
+
+  .option-name {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+  }
